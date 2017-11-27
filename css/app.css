@@ -1426,7 +1426,7 @@ footer ul li a, footer ul li a:visited, footer ul li a:hover {
     	text-align: center;
 	}
 	.container-contacto ul li {
-		margin-left: 0;
+		font-size: 12px;
 	}
 	.info-phone {
 		display: block;

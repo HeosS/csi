@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets" 
+	xmlns:gap = "http://phonegap.com/ns/1.0" 
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	id = "com.HeosS.csi"
+	versionCode = "1"
+	version = "1.0">
+	
+	<preference name="android-build-tool" value="gradle" />
+	
+	<name>csi</name>
+	
+	<icon src="image/Icono.png" gap:platform="android" gap:density="ldpi"/>
+	<icon src="image/Icono.png" gap:platform="android" gap:density="mdpi"/>
+	<icon src="image/Icono.png" gap:platform="android" gap:density="hdpi"/>
+	<icon src="image/Icono.png" gap:platform="android" gap:density="xhdpi"/>
+	
+	<description>
+		prueba.
+	</description>
+	
+	<author href="http://www.heoss.cl/" email="heossweb@gmail.com">
+		HeosS®
+	</author>
+	
+	<compatible-screens>
+		<!--all normal size screens -->
+		<screen android:screenSize="normal" android:screenDensity="ldpi" />
+		<screen android:screenSize="normal" android:screenDensity="mdpi" />
+		<screen android:screenSize="normal" android:screenDensity="hdpi" />
+		<screen android:screenSize="normal" android:screenDensity="xhdpi" />
+		
+		<!-- all large size screens -->
+		<screen android:screenSize="large" android:screenDensity="ldpi" />
+		<screen android:screenSize="large" android:screenDensity="mdpi" />
+		<screen android:screenSize="large" android:screenDensity="hdpi" />
+		<screen android:screenSize="large" android:screenDensity="xhdpi" />
+		
+		<!-- all xlarge size screens -->
+		<screen android:screenSize="xlarge" android:screenDensity="ldpi" />
+		<screen android:screenSize="xlarge" android:screenDensity="mdpi" />
+		<screen android:screenSize="xlarge" android:screenDensity="hdpi" />
+		<screen android:screenSize="xlarge" android:screenDensity="xhdpi" />
+	</compatible-screens>
+	
+	<preference name="phonegap-version" value="cli-7.0.1"/>
+	<preference name="permissions" value="none"/>
+	<preference name="accelerated" value="none"/>
+	<preference name="android-installLocation" value="preferExternal"/>
+	<preference name="orientation" value="portrait"/>
+	<preference name="fullscreen" value="true"/>
+	<preference name="splash-screen-duration" value="5000"/>
+	<preference name="android-minSdkVersion" value="14" />
+	<preference name="android-targetSdkVersion" value="21" />
+	<preference name="android-maxSdkVersion" value="25" />
+	
+</widget>
